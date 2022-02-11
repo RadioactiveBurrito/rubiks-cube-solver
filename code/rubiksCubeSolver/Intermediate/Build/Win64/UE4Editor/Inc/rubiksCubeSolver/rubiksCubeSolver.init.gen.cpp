@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCoderubiksCubeSolver_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA3927784,
+				0x2863C6AA,
 				0xABA85B3A,
 				METADATA_PARAMS(nullptr, 0)
 			};

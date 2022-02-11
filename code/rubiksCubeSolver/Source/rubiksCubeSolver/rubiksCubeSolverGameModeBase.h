@@ -13,5 +13,6 @@ UCLASS()
 class RUBIKSCUBESOLVER_API ArubiksCubeSolverGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+public:
+	ArubiksCubeSolverGameModeBase(const FObjectInitializer& ObjectInitializer);
 };

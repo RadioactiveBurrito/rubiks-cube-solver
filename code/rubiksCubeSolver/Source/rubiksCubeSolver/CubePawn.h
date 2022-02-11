@@ -15,6 +15,8 @@ public:
 	// Sets default values for this pawn's properties
 	ACubePawn();
 
+	void Right();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -26,4 +28,11 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY()
+	USceneComponent* Root;
+
+	UPROPERTY(EditAnywhere) // allows to also edit in the editor, we assign a static mesh through the editor
+	UStaticMeshComponent* Mesh;
+private:
+	FRotator RightRotation;
 };

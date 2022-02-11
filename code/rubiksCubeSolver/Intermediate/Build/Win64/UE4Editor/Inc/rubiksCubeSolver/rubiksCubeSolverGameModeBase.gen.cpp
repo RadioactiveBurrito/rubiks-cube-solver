@@ -44,6 +44,7 @@ void EmptyLinkFunctionForGeneratedCoderubiksCubeSolverGameModeBase() {}
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "rubiksCubeSolverGameModeBase.h" },
 		{ "ModuleRelativePath", "rubiksCubeSolverGameModeBase.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -74,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCoderubiksCubeSolverGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ArubiksCubeSolverGameModeBase, 4027927163);
+	IMPLEMENT_CLASS(ArubiksCubeSolverGameModeBase, 1174288961);
 	template<> RUBIKSCUBESOLVER_API UClass* StaticClass<ArubiksCubeSolverGameModeBase>()
 	{
 		return ArubiksCubeSolverGameModeBase::StaticClass();
