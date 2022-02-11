@@ -894,3 +894,102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.11-16.21.13:299][  0]LogAssetRegistry: Asset discovery search completed in 5.5611 seconds
 [2022.02.11-16.21.13:306][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2022.02.11-16.21.13:307][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.02.11-16.21.43:081][ 90]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.02.11-16.21.43:081][ 90]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.02.11-16.21.50:897][934]LogSlate: Window 'Tutorials' being destroyed
+[2022.02.11-16.21.50:900][934]LogSlate: Window 'Tutorials' being destroyed
+[2022.02.11-16.22.00:365][ 66]LogRenderer: Reallocating scene render targets to support 820x572 Format 10 NumSamples 1 (Frame:1937).
+[2022.02.11-16.22.00:420][ 67]LogRenderer: Reallocating scene render targets to support 824x572 Format 10 NumSamples 1 (Frame:1939).
+[2022.02.11-16.22.00:491][ 67]LogRenderer: Reallocating scene render targets to support 892x572 Format 10 NumSamples 1 (Frame:1941).
+[2022.02.11-16.22.00:599][ 69]LogRenderer: Reallocating scene render targets to support 936x572 Format 10 NumSamples 1 (Frame:1943).
+[2022.02.11-16.22.00:689][ 70]LogRenderer: Reallocating scene render targets to support 944x572 Format 10 NumSamples 1 (Frame:1945).
+[2022.02.11-16.22.00:742][ 71]LogRenderer: Reallocating scene render targets to support 948x572 Format 10 NumSamples 1 (Frame:1947).
+[2022.02.11-16.22.00:794][ 72]LogRenderer: Reallocating scene render targets to support 968x572 Format 10 NumSamples 1 (Frame:1949).
+[2022.02.11-16.22.00:855][ 73]LogRenderer: Reallocating scene render targets to support 976x572 Format 10 NumSamples 1 (Frame:1951).
+[2022.02.11-16.22.01:325][125]LogRenderer: Reallocating scene render targets to support 980x572 Format 10 NumSamples 1 (Frame:1953).
+[2022.02.11-16.22.01:437][130]LogRenderer: Reallocating scene render targets to support 984x572 Format 10 NumSamples 1 (Frame:1957).
+[2022.02.11-16.22.41:192][886]LogActorFactory: Actor Factory created Cube
+[2022.02.11-16.22.47:492][632]LogActorFactory: Actor Factory created Cube
+[2022.02.11-16.22.47:873][660]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2022.02.11-16.22.48:242][701]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2022.02.11-16.22.48:750][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.22.51:632][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.22.52:293][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.22.52:498][203]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.11-16.22.52:751][230]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.11-16.23.07:508][637]LogSlate: Took 0.001750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.11-16.23.07:541][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.02.11-16.23.07:572][637]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Saved/Minimal_DefaultA19847334BAD26777FF98E902FC30D0D.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Content/StarterContent/Maps/Minimal_Default.umap'
+[2022.02.11-16.23.07:639][637]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Saved/Minimal_Default_BuiltData3CF5AE79422D10786A353695AF10F11D.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2022.02.11-16.23.07:654][637]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.11-16.23.07:654][637]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2022.02.11-16.23.07:654][637]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2022.02.11-16.23.15:992][452]LogSlate: Took 0.002951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.02.11-16.23.26:229][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.11-16.23.27:620][801]Cmd: DELETE
+[2022.02.11-16.23.27:620][801]Cmd: ACTOR DELETE
+[2022.02.11-16.23.27:624][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.27:631][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.02.11-16.23.27:632][801]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.02.11-16.23.28:373][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.11-16.23.29:088][972]Cmd: DELETE
+[2022.02.11-16.23.29:088][972]Cmd: ACTOR DELETE
+[2022.02.11-16.23.29:089][972]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.29:096][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.02.11-16.23.29:096][972]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.11-16.23.31:292][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2022.02.11-16.23.32:098][314]Cmd: DELETE
+[2022.02.11-16.23.32:098][314]Cmd: ACTOR DELETE
+[2022.02.11-16.23.32:099][314]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.32:106][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.11-16.23.32:108][314]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.11-16.23.34:851][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2022.02.11-16.23.36:356][798]Cmd: DELETE
+[2022.02.11-16.23.36:356][798]Cmd: ACTOR DELETE
+[2022.02.11-16.23.36:357][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.36:364][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.02.11-16.23.36:365][798]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.11-16.23.37:222][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2022.02.11-16.23.37:922][981]Cmd: DELETE
+[2022.02.11-16.23.37:922][981]Cmd: ACTOR DELETE
+[2022.02.11-16.23.37:923][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.37:930][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.11-16.23.37:930][981]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.11-16.23.39:299][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2022.02.11-16.23.39:998][225]Cmd: DELETE
+[2022.02.11-16.23.39:998][225]Cmd: ACTOR DELETE
+[2022.02.11-16.23.39:999][225]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.23.40:006][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.11-16.23.40:007][225]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.11-16.23.44:650][782]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2022.02.11-16.23.50:684][502]Cmd: DELETE
+[2022.02.11-16.23.50:684][502]Cmd: ACTOR DELETE
+[2022.02.11-16.23.50:685][502]LogEditorActor: Deleted Actor: AtmosphericFog
+[2022.02.11-16.23.50:692][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.11-16.23.50:693][502]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.11-16.23.52:172][673]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.11-16.23.54:915][973]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2022.02.11-16.24.00:539][628]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2022.02.11-16.24.03:935][  3]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2022.02.11-16.24.06:100][259]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2022.02.11-16.24.09:400][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.24.10:435][771]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.02.11-16.24.17:092][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.24.20:481][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.24.31:366][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.24.57:707][ 60]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2022.02.11-16.24.58:431][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.25.15:630][205]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.11-16.25.16:526][307]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.11-16.25.19:266][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.26.58:562][544]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.02.11-16.27.06:685][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.02.11-16.27.07:469][899]Cmd: DELETE
+[2022.02.11-16.27.07:469][899]Cmd: ACTOR DELETE
+[2022.02.11-16.27.07:470][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.11-16.27.07:477][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.02.11-16.27.07:478][899]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.11-16.33.07:866][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.02.11-16.33.07:894][187]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Saved/Minimal_Default_Auto163963AC8468563F2F960CB968EA13596.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/code/rubiksCubeSolver/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2022.02.11-16.33.07:899][187]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.044
+[2022.02.11-16.33.07:899][187]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
