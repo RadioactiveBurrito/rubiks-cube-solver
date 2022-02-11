@@ -2,7 +2,9 @@
 
 #pragma once
 
+#include "Camera/CameraComponent.h"
 #include "CoreMinimal.h"
+
 #include "GameFramework/Pawn.h"
 #include "CubePawn.generated.h"
 
@@ -28,11 +30,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY()
-	USceneComponent* Root;
-
 	UPROPERTY(EditAnywhere) // allows to also edit in the editor, we assign a static mesh through the editor
-	UStaticMeshComponent* Mesh;
+	UStaticMeshComponent* VisibleCube;
+
+
 private:
 	FRotator RightRotation;
 };

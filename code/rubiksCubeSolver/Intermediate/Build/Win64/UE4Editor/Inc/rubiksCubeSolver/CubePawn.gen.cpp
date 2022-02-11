@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeCubePawn() {}
 	RUBIKSCUBESOLVER_API UClass* Z_Construct_UClass_ACubePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_rubiksCubeSolver();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ACubePawn::StaticRegisterNativesACubePawn()
@@ -34,13 +33,9 @@ void EmptyLinkFunctionForGeneratedCodeCubePawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VisibleCube_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Root;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VisibleCube;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -57,14 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeCubePawn() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubePawn_Statics::NewProp_Root_MetaData[] = {
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "CubePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubePawn_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubePawn, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubePawn_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubePawn_Statics::NewProp_Root_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubePawn_Statics::NewProp_Mesh_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubePawn_Statics::NewProp_VisibleCube_MetaData[] = {
 		{ "Category", "CubePawn" },
 		{ "Comment", "// allows to also edit in the editor, we assign a static mesh through the editor\n" },
 		{ "EditInline", "true" },
@@ -72,10 +60,9 @@ void EmptyLinkFunctionForGeneratedCodeCubePawn() {}
 		{ "ToolTip", "allows to also edit in the editor, we assign a static mesh through the editor" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubePawn_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubePawn, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubePawn_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubePawn_Statics::NewProp_Mesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACubePawn_Statics::NewProp_VisibleCube = { "VisibleCube", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubePawn, VisibleCube), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACubePawn_Statics::NewProp_VisibleCube_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACubePawn_Statics::NewProp_VisibleCube_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACubePawn_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubePawn_Statics::NewProp_Root,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubePawn_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubePawn_Statics::NewProp_VisibleCube,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACubePawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACubePawn>::IsAbstract,
@@ -104,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeCubePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACubePawn, 3440937738);
+	IMPLEMENT_CLASS(ACubePawn, 3220713193);
 	template<> RUBIKSCUBESOLVER_API UClass* StaticClass<ACubePawn>()
 	{
 		return ACubePawn::StaticClass();

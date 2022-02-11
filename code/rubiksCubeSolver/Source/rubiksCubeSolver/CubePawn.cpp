@@ -9,17 +9,22 @@ ACubePawn::ACubePawn()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-
-	RootComponent = Root; // transform applied to the pawn
-	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-
-	Mesh->AttachTo(Root); // todo: remove compile warning as this method will be deprecated soon
-
-	RightRotation = FRotator(0, 0, 3.141593f / 2);
-
-
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+
+	VisibleCube = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisibleCube"));
+
+	// Create a camera and a visible object
+	UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("CubeCamera"));
+	OurCamera->SetupAttachment(RootComponent);
+	OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));
+	OurCamera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+
+	VisibleCube->SetupAttachment(RootComponent);
+
+	RightRotation = FRotator(0, 0, 90.f);
+
 	UE_LOG(LogTemp, Warning, TEXT("CubePawn constructor called"));
 }
 
@@ -48,7 +53,7 @@ void ACubePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void ACubePawn::Right()
 {
-	Mesh->AddWorldRotation(RightRotation);
+	VisibleCube->AddLocalRotation(RightRotation);
 	UE_LOG(LogTemp, Warning, TEXT("Right called"));
 }
 

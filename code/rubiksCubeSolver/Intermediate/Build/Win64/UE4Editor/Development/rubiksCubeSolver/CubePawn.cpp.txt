@@ -1,3 +1,5 @@
 C:\Users\Ludo\source\repos\rubiks-cube-solver\code\rubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\rubiksCubeSolver\Definitions.rubiksCubeSolver.h
 c:\users\ludo\source\repos\rubiks-cube-solver\code\rubikscubesolver\source\rubikscubesolver\CubePawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Users\Ludo\source\repos\rubiks-cube-solver\code\rubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Inc\rubiksCubeSolver\CubePawn.generated.h
