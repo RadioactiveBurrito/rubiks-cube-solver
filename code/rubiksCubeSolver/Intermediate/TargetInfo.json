@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "rubiksCubeSolver",
+			"Path": "C:\\Users\\Ludo\\source\\repos\\rubiks-cube-solver\\code\\rubiksCubeSolver\\Source\\rubiksCubeSolver.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "rubiksCubeSolverEditor",
+			"Path": "C:\\Users\\Ludo\\source\\repos\\rubiks-cube-solver\\code\\rubiksCubeSolver\\Source\\rubiksCubeSolverEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

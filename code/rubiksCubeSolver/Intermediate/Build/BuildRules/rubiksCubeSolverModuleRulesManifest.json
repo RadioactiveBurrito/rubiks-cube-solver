@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Ludo\\source\\repos\\rubiks-cube-solver\\code\\rubiksCubeSolver\\Source\\rubiksCubeSolver\\rubiksCubeSolver.Build.cs",
+		"C:\\Users\\Ludo\\source\\repos\\rubiks-cube-solver\\code\\rubiksCubeSolver\\Source\\rubiksCubeSolver.Target.cs",
+		"C:\\Users\\Ludo\\source\\repos\\rubiks-cube-solver\\code\\rubiksCubeSolver\\Source\\rubiksCubeSolverEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

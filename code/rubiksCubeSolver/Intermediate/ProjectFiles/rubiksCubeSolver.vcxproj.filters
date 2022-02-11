@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\rubiksCubeSolver.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EDFA095F-89D9-4CAC-95DB-FFF25CEF8609}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\rubiksCubeSolver.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\rubiksCubeSolverEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D4279431-549C-4006-81B4-ED3DCE02297A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\rubiksCubeSolver">
+      <UniqueIdentifier>{C226A9B7-25A1-4DE8-B320-09FD11A53BC0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\rubiksCubeSolver\CubePawn.cpp">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\rubiksCubeSolver\CubePawn.h">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\rubiksCubeSolver\rubiksCubeSolver.Build.cs">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\rubiksCubeSolver\rubiksCubeSolver.cpp">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\rubiksCubeSolver\rubiksCubeSolver.h">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\rubiksCubeSolver\rubiksCubeSolverGameModeBase.cpp">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\rubiksCubeSolver\rubiksCubeSolverGameModeBase.h">
+      <Filter>Source\rubiksCubeSolver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
