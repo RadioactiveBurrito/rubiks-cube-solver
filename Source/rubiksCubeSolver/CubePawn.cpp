@@ -77,13 +77,12 @@ void ACubePawn::InitializeVisualCubeLayout(uint8 CubeSizeSide, ConstructorHelper
 		{
 			for (uint8 Z = 0; Z < CubeSizeSide; ++Z)
 			{
-				CubieIdentifier = std::to_string(X) + std::to_string(Y);
+				CubieIdentifier = std::to_string(X) + std::to_string(Y) + std::to_string(Z);
 
 				UStaticMesh* Cubie = CubieMesh.Object;
-				UInstancedStaticMeshComponent* CubieComponent = CreateDefaultSubobject<UInstancedStaticMeshComponent>(CubieIdentifier.c_str());
-				CubieComponent->RegisterComponent();
+				UStaticMeshComponent* CubieComponent = CreateDefaultSubobject<UStaticMeshComponent>(CubieIdentifier.c_str());
 				CubieComponent->SetStaticMesh(Cubie);
-				CubieComponent->AddWorldOffset(FVector(X * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES),
+				CubieComponent->SetRelativeLocation(FVector(X * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES),
 					Y * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES),
 					Z * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES)));
 

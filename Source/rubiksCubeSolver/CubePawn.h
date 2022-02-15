@@ -39,7 +39,7 @@ public:
 private:
 	const uint8 CUBE_SIZE_SIDE = 3;
 
-	const float SPACE_SIZE_CUBIES = 0.5f;
+	const float SPACE_SIZE_CUBIES = 100.f;
 
 	const uint8 CUBIE_SIZE_CM = 10;
 
