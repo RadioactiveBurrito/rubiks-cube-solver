@@ -30,20 +30,23 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	//UPROPERTY()//EditAnywhere) // allows to also edit in the editor, we assign a static mesh through the editor
-	//UStaticMeshComponent* VisibleTestCube;
-
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 	TArray<UStaticMeshComponent*> Cubies;
 
 private:
-	const uint8 CUBE_SIZE_SIDE = 3;
+	const uint8 NB_CUBIES = 3;
 
-	const float SPACE_SIZE_CUBIES = 100.f;
+	const float SPACE_SIZE_CUBIES = 10.f;
 
-	const uint8 CUBIE_SIZE_CM = 10;
+	const float CUBIE_SIZE = 100;
 
-	// FRotator RightRotation;
+	void InitializeVisualCubeLayout(uint8 NbCubies, ConstructorHelpers::FObjectFinder<UStaticMesh> CubieMesh);
 
-	void InitializeVisualCubeLayout(uint8 CubeSizeSide, ConstructorHelpers::FObjectFinder<UStaticMesh> CubieMesh);
+	void InitializeCubeSlices();
+
+	void InitializeCamera();
+
+	void ColorCubie(int X, int Y, int Z, UStaticMesh* Cubie);
+
+	bool IsValidCubie(int X, int Y, int Z, const int MIN_COORD, const int MAX_COORD);
 };

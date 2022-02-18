@@ -1,8 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "CubePawn.h"
 #include "Components/StaticMeshComponent.h"
+#include "Engine/TriggerBox.h"
+#include <stdlib.h>
 #include <string>
 
 // Sets default values
@@ -16,25 +15,11 @@ ACubePawn::ACubePawn()
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 
-	// VisibleTestCube = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisibleTestCube"));
+	InitializeCamera();
 
-	// TODO REMOVE
-	//static ConstructorHelpers::FObjectFinder<UStaticMesh> StaticMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
-	//UStaticMesh* Cubie = StaticMesh.Object;
-	//VisibleTestCube->SetStaticMesh(Cubie);
-	// TODO REMOVE
+	InitializeVisualCubeLayout(NB_CUBIES, CubieMesh);
 
-	// Create a camera and a visible object
-	UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("CubeCamera"));
-	OurCamera->SetupAttachment(RootComponent);
-	OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));
-	OurCamera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
-
-	//VisibleTestCube->SetupAttachment(RootComponent);
-
-	//RightRotation = FRotator(0, 0, 90.f);
-
-	InitializeVisualCubeLayout(CUBE_SIZE_SIDE, CubieMesh);
+	InitializeCubeSlices();
 
 	UE_LOG(LogTemp, Warning, TEXT("CubePawn constructor called"));
 }
@@ -65,30 +50,99 @@ void ACubePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ACubePawn::Right()
 {
 	// VisibleTestCube->AddLocalRotation(RightRotation);
+
+	for(int i = 0; i < Cubies.Num(); ++i)
+	{
+		UStaticMeshComponent* Cubie = Cubies[i];
+		//if (Cubie->GetSub.ToString().Contains("R"))
+		//{
+		//	Cubie->AddLocalRotation(FRotator(0,10,0));
+		//}
+	}
+
 	UE_LOG(LogTemp, Warning, TEXT("Right called"));
 }
 
-void ACubePawn::InitializeVisualCubeLayout(uint8 CubeSizeSide, ConstructorHelpers::FObjectFinder<UStaticMesh> CubieMesh)
+void ACubePawn::InitializeVisualCubeLayout(uint8 NbCubies, ConstructorHelpers::FObjectFinder<UStaticMesh> CubieMesh)
 {
 	std::string CubieIdentifier;
-	for (uint8 X = 0; X < CubeSizeSide; ++X)
+
+	int MAX_COORD = NbCubies / 2;
+	int MIN_COORD = -MAX_COORD;
+
+	for (int X = MIN_COORD; X <= MAX_COORD; ++X)
 	{
-		for (uint8 Y = 0; Y < CubeSizeSide; ++Y)
+		for (int Y = MIN_COORD; Y <= MAX_COORD; ++Y)
 		{
-			for (uint8 Z = 0; Z < CubeSizeSide; ++Z)
+			for (int Z = MIN_COORD; Z <= MAX_COORD; ++Z)
 			{
-				CubieIdentifier = std::to_string(X) + std::to_string(Y) + std::to_string(Z);
+				if (IsValidCubie(X, Y, Z, MIN_COORD, MAX_COORD))
+				{
+					CubieIdentifier = std::to_string(X) + std::to_string(Y) + std::to_string(Z);
 
-				UStaticMesh* Cubie = CubieMesh.Object;
-				UStaticMeshComponent* CubieComponent = CreateDefaultSubobject<UStaticMeshComponent>(CubieIdentifier.c_str());
-				CubieComponent->SetStaticMesh(Cubie);
-				CubieComponent->SetRelativeLocation(FVector(X * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES),
-					Y * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES),
-					Z * (float(CUBIE_SIZE_CM) / CubeSizeSide + SPACE_SIZE_CUBIES)));
+					// TODO: MARK THE CUBIES IN A CERTAIN ENCODING SO THEY ARE RECOGNIZABLE LATER ON
 
-				CubieComponent->SetupAttachment(RootComponent);
-				Cubies.Emplace(CubieComponent);
+					UStaticMesh* Cubie = CubieMesh.Object;
+
+					ColorCubie(X, Y, Z, Cubie);
+					UStaticMeshComponent* CubieComponent = CreateDefaultSubobject<UStaticMeshComponent>(CubieIdentifier.c_str());
+					// CubieComponent->TagSubobjects();
+					CubieComponent->SetStaticMesh(Cubie);
+
+					FVector CubiePosition = FVector(X * (CUBIE_SIZE / NbCubies + SPACE_SIZE_CUBIES + CUBIE_SIZE),
+						Y * (CUBIE_SIZE / NbCubies + SPACE_SIZE_CUBIES + CUBIE_SIZE),
+						Z * (CUBIE_SIZE / NbCubies + SPACE_SIZE_CUBIES + CUBIE_SIZE));
+
+					// TODO: CHECK THE DIFFERENCE BETWEEN THESE TWO METHODS
+					CubieComponent->SetRelativeLocation(CubiePosition);
+					// CubieComponent->SetWorldLocation(CubiePosition);
+
+					CubieComponent->SetupAttachment(RootComponent);
+					Cubies.Emplace(CubieComponent);
+				}
 			}
 		}
 	}
+
+	// So that the cubies are truly centered around the actor's position
+	SetPivotOffset(FVector(0, 0, -MIN_COORD*CUBIE_SIZE/2));
+}
+
+void ACubePawn::InitializeCubeSlices()
+{
+
+}
+
+void ACubePawn::ColorCubie(int X, int Y, int Z, UStaticMesh* Cubie)
+{
+	// TODO: COLOR THE CUBIES
+	if (Cubie == NULL)
+		return;
+
+	TMap<FVector, FColor> VertexColorData;
+	Cubie->GetVertexColorData(VertexColorData);
+
+	//for (auto key : VertexColorData.CreateConstKeyIterator())
+	//{
+
+	//}
+
+	//Cubie->SetVertexColorData();
+	
+}
+
+void ACubePawn::InitializeCamera()
+{
+	// Create a camera and a visible object
+	UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("CubeCamera"));
+	OurCamera->SetupAttachment(RootComponent);
+	OurCamera->SetRelativeLocation(FVector(-500.0f, 0.0f, 500.0f));
+	OurCamera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+}
+
+bool ACubePawn::IsValidCubie(int X, int Y, int Z, const int MIN_COORD, const int MAX_COORD)
+{
+	return X == MIN_COORD || X == MAX_COORD ||
+		Y == MIN_COORD || Y == MAX_COORD ||
+		Z == MIN_COORD || Z == MAX_COORD;
 }
