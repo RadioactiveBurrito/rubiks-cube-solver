@@ -4,10 +4,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Source\RubiksCubeSolver/CubePawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-c:\users\ludo\source\repos\rubiks-cube-solver\rubikscubesolver\source\rubikscubesolver\CubeSliceTriggerBox.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBox.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerBase.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerBox.generated.h
-c:\users\ludo\source\repos\rubiks-cube-solver\rubikscubesolver\intermediate\build\win64\ue4editor\inc\rubikscubesolver\CubeSliceTriggerBox.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 c:\users\ludo\source\repos\rubiks-cube-solver\rubikscubesolver\intermediate\build\win64\ue4editor\inc\rubikscubesolver\CubePawn.generated.h

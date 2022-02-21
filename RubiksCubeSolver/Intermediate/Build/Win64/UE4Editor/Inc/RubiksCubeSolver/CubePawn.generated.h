@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RUBIKSCUBESOLVER_CubePawn_generated_h
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_SPARSE_DATA
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_RPC_WRAPPERS
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_INCLASS_NO_PURE_DECLS \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_SPARSE_DATA
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_RPC_WRAPPERS
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACubePawn(); \
 	friend struct Z_Construct_UClass_ACubePawn_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACubePawn)
 
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_INCLASS \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesACubePawn(); \
 	friend struct Z_Construct_UClass_ACubePawn_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACubePawn)
 
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_STANDARD_CONSTRUCTORS \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACubePawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACubePawn) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_ENHANCED_CONSTRUCTORS \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACubePawn(ACubePawn&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACubePawn)
 
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_PRIVATE_PROPERTY_OFFSET
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_12_PROLOG
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_GENERATED_BODY_LEGACY \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_PRIVATE_PROPERTY_OFFSET
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_13_PROLOG
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_PRIVATE_PROPERTY_OFFSET \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_SPARSE_DATA \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_RPC_WRAPPERS \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_INCLASS \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_STANDARD_CONSTRUCTORS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_PRIVATE_PROPERTY_OFFSET \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_SPARSE_DATA \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_RPC_WRAPPERS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_INCLASS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_GENERATED_BODY \
+#define RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_PRIVATE_PROPERTY_OFFSET \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_SPARSE_DATA \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_INCLASS_NO_PURE_DECLS \
-	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_15_ENHANCED_CONSTRUCTORS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_PRIVATE_PROPERTY_OFFSET \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_SPARSE_DATA \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_INCLASS_NO_PURE_DECLS \
+	RubiksCubeSolver_Source_RubiksCubeSolver_CubePawn_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,6 +1,7 @@
 #include "CubePawn.h"
 #include "Components/StaticMeshComponent.h"
-#include "CubeSliceTriggerBox.h"
+//#include "CubeSliceTriggerBox.h"
+#include "Components/BoxComponent.h"
 
 #include <stdlib.h>
 #include <string>
@@ -58,6 +59,10 @@ ACubePawn::ACubePawn()
 
 	InitializeCubeSlices(NB_CUBIES);
 
+	// So that the cubies are truly centered around the actor's position
+	int MAX_COORD = NB_CUBIES / 2;
+	SetPivotOffset(FVector(0, 0, MAX_COORD * CUBIE_LENGTH / 2));
+
 	UE_LOG(LogTemp, Warning, TEXT("CubePawn constructor called"));
 }
 
@@ -100,26 +105,20 @@ void ACubePawn::InitializeVisualCubeLayout(uint8 NbCubies, ConstructorHelpers::F
 
 					ColorCubie(X, Y, Z, Cubie);
 					UStaticMeshComponent* CubieComponent = CreateDefaultSubobject<UStaticMeshComponent>(CubieIdentifier.c_str());
-					// CubieComponent->TagSubobjects();
 					CubieComponent->SetStaticMesh(Cubie);
 
 					FVector CubiePosition = FVector(X * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH),
 						Y * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH),
 						Z * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH)); // TODO, MAYBE PUT THIS IN METHOD. DUPLICATE IN SLICE INIT
 
-					// TODO: CHECK THE DIFFERENCE BETWEEN THESE TWO METHODS
-					CubieComponent->SetRelativeLocation(CubiePosition);
-					// CubieComponent->SetWorldLocation(CubiePosition);
-
 					CubieComponent->SetupAttachment(RootComponent);
+					CubieComponent->SetRelativeLocation(CubiePosition);
+
 					Cubies.Emplace(CubieComponent);
 				}
 			}
 		}
 	}
-
-	// So that the cubies are truly centered around the actor's position
-	SetPivotOffset(FVector(0, 0, -MIN_COORD * CUBIE_LENGTH / 2));
 }
 
 void ACubePawn::InitializeCubeSlices(uint8 NbCubies)
@@ -128,6 +127,7 @@ void ACubePawn::InitializeCubeSlices(uint8 NbCubies)
 	const int NB_DIMENSIONS = 3;
 	const std::string DIMENSION_IDENTIFIER = "XYZ";
 	FVector POSITION_SELECTOR[] = { FVector(1, 0, 0), FVector(0, 1, 0), FVector(0, 0, 1) };
+	FVector DIMENSIONS_SELECTOR[] = { FVector(0, 1, 1), FVector(1, 0, 1), FVector(1, 1, 0) };
 
 	// maybe put as attributes
 	int MAX_COORD = NbCubies / 2;
@@ -140,16 +140,21 @@ void ACubePawn::InitializeCubeSlices(uint8 NbCubies)
 		for (int Coord = MIN_COORD; Coord <= MAX_COORD; ++Coord)
 		{
 			SliceIdentifier = DIMENSION_IDENTIFIER[i] + std::to_string(Coord);
-			ACubeSliceTriggerBox* CubeSlice = CreateDefaultSubobject<ACubeSliceTriggerBox>(SliceIdentifier.c_str());
-			
+			//ACubeSliceTriggerBox* CubeSlice = CreateDefaultSubobject<ACubeSliceTriggerBox>(SliceIdentifier.c_str());
+			UBoxComponent* CubeSliceComponent = CreateDefaultSubobject<UBoxComponent>(SliceIdentifier.c_str());
+
+			// CubeSliceComponent->SetBoxExtent(FVector(CUBIE_LENGTH, CUBIE_LENGTH, CUBIE_LENGTH), true);
+
 			// TODO: GIVE DIMENSIONS TO CUBIE SLICE AND ROTATION AXIS
-			FVector SlicePosition = POSITION_SELECTOR[i] * (Coord * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH));
+			FVector SlicePosition = POSITION_SELECTOR[i] * (Coord * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH) + 400);
 
-			CubeSlice->SetPosition(SlicePosition);
-			// CubeSlice->SetupAttachment(RootComponent);
-			// CubeSlice->SetDimensions();
+			
+			CubeSliceComponent->SetupAttachment(RootComponent);
+			CubeSliceComponent->SetRelativeLocation(SlicePosition);
+			/*CubeSliceComponent->SetBoxExtent(DIMENSIONS_SELECTOR[i] * TotalCubeSideLength 
+				+ POSITION_SELECTOR[i]*CUBIE_LENGTH, true); // sets the dimensions*/
 
-			CubeSlices.Emplace(CubeSlice);
+			CubeSlices.Emplace(CubeSliceComponent);
 		}
 	}
 

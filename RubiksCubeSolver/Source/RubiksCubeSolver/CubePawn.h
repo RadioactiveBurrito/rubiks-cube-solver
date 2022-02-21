@@ -4,7 +4,8 @@
 
 #include "Camera/CameraComponent.h"
 #include "CoreMinimal.h"
-#include "CubeSliceTriggerBox.h"
+//#include "CubeSliceTriggerBox.h"
+#include "Components/BoxComponent.h"
 
 #include "GameFramework/Pawn.h"
 #include "CubePawn.generated.h"
@@ -35,7 +36,7 @@ public:
 
 	// TODO: MAYBE CHANGE THE EDITANYWHERE SPECIFIER TO SOMETHING ELSE
 	UPROPERTY(EditAnywhere)
-	TArray<ACubeSliceTriggerBox*> CubeSlices;
+	TArray<UBoxComponent*> CubeSlices;
 
 private:
 	const uint8 NB_CUBIES = 3;

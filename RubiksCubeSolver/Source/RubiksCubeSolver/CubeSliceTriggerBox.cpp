@@ -8,7 +8,7 @@ ACubeSliceTriggerBox::ACubeSliceTriggerBox()
 void ACubeSliceTriggerBox::SetPosition(FVector Position)
 {
 	FTransform TranslationTransform = FTransform(Position);
-	AddActorLocalTransform(TranslationTransform);
+	AddActorWorldTransform(TranslationTransform);
 }
 
 void ACubeSliceTriggerBox::SetDimensions(FVector Dimensions)
@@ -16,7 +16,7 @@ void ACubeSliceTriggerBox::SetDimensions(FVector Dimensions)
 	FRotator Rotation = FRotator();
 	FVector Translation = FVector::ZeroVector;
 	FTransform ScaleTransform = FTransform(Rotation, Translation, Dimensions);
-	AddActorLocalTransform(ScaleTransform);
+	AddActorWorldTransform(ScaleTransform);
 }
 
 void ACubeSliceTriggerBox::SetRotationAxis(FVector Axis)

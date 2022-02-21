@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeRubiksCubeSolver_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAF427A7D,
-				0xFEA9C74A,
+				0xCE88034D,
+				0xC820DCA5,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
