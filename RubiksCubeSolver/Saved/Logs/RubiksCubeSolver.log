@@ -2682,3 +2682,333 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.21-19.14.38:045][926]LogTemp: Warning: CubePawn constructor called
 [2022.02.21-19.14.38:565][986]LogEditor: Attempting to add actor of class 'CubePawn' to level at -480.00,580.00,530.00
 [2022.02.21-19.14.38:568][986]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-19.18.52:631][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.02.21-19.18.52:660][992]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Minimal_Default_Auto56FF189E141D0A72E5FC7109F2A185747.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2022.02.21-19.18.52:663][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.043
+[2022.02.21-19.18.52:663][992]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2022.02.21-19.19.22:476][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.13.01:146][439]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn19)
+[2022.02.21-20.13.58:498][478]Candidate modules for hot reload:
+[2022.02.21-20.13.58:498][478]  RubiksCubeSolver
+[2022.02.21-20.13.58:499][478]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,2478 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.13.58:504][478]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.14.24:955][984]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:14:24 AM
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Creating makefile for RubiksCubeSolverEditor (game project files are newer)
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-2478.lib
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-2478.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-2478.exp
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-2478.dll
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-2478.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-2478.suppressed.exp
+[2022.02.21-20.14.24:956][984]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Total time in Parallel executor: 21.10 seconds
+[2022.02.21-20.14.24:956][984]CompilerResultsLog: Total execution time: 26.25 seconds
+[2022.02.21-20.14.24:956][984]LogMainFrame: MainFrame: Module compiling took 26.461 seconds
+[2022.02.21-20.14.24:971][984]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.14.24:980][984]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.14.24:980][984]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.14.24:983][984]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.14.25:029][984]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.14.25:031][984]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.14.25:107][984]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0110 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.14.25:108][984]Display: HotReload took 26.6s.
+[2022.02.21-20.14.27:653][991]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.14.28:340][ 68]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn19)
+[2022.02.21-20.14.31:743][350]Cmd: DELETE
+[2022.02.21-20.14.31:743][350]Cmd: ACTOR DELETE
+[2022.02.21-20.14.31:745][350]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.14.31:766][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.02.21-20.14.31:767][350]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.02.21-20.14.32:864][480]LogEditor: Attempting to add actor of class 'CubePawn' to level at -1170.00,850.00,1160.00
+[2022.02.21-20.14.32:864][480]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.14.33:275][527]LogEditor: Attempting to add actor of class 'CubePawn' to level at -650.00,1030.00,870.00
+[2022.02.21-20.14.33:278][527]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.14.46:835][711]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn22)
+[2022.02.21-20.15.17:609][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.15.51:401][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.02.21-20.15.51:430][105]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Minimal_Default_Auto653E7A01245D445DE70457B8F3F1484D8.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap'
+[2022.02.21-20.15.51:433][105]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.040
+[2022.02.21-20.15.51:433][105]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2022.02.21-20.15.51:769][137]Candidate modules for hot reload:
+[2022.02.21-20.15.51:769][137]  RubiksCubeSolver
+[2022.02.21-20.15.51:769][137]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,9301 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.15.51:778][137]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:16:12 AM
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: Creating makefile for RubiksCubeSolverEditor (game project files are newer)
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.16.12:970][214]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.16.12:970][214]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.16.12:970][214]CompilerResultsLog:    C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Source\RubiksCubeSolver\CubePawn.cpp(156) : error C4138: '*/' found outside of comment
+[2022.02.21-20.16.12:970][214]CompilerResultsLog:    C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Source\RubiksCubeSolver\CubePawn.cpp(156) : error C2059: syntax error: '/'
+[2022.02.21-20.16.12:970][214]LogMainFrame: MainFrame: Module compiling took 21.205 seconds
+[2022.02.21-20.16.12:970][214]Warning: HotReload failed, recompile failed
+[2022.02.21-20.16.27:102][293]LogSlate: Window 'Message Log' being destroyed
+[2022.02.21-20.16.27:108][293]LogSlate: Window 'Message Log' being destroyed
+[2022.02.21-20.16.28:219][407]Candidate modules for hot reload:
+[2022.02.21-20.16.28:219][407]  RubiksCubeSolver
+[2022.02.21-20.16.28:220][407]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,9555 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.16.28:227][407]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:16:43 AM
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-9555.lib
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-9555.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-9555.exp
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-9555.dll
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-9555.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-9555.suppressed.exp
+[2022.02.21-20.16.43:197][546]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Total time in Parallel executor: 12.92 seconds
+[2022.02.21-20.16.43:197][546]CompilerResultsLog: Total execution time: 14.84 seconds
+[2022.02.21-20.16.43:197][546]LogMainFrame: MainFrame: Module compiling took 14.981 seconds
+[2022.02.21-20.16.43:211][546]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.16.43:216][546]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.16.43:217][546]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.16.43:219][546]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.16.43:236][546]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.16.43:238][546]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.16.43:295][546]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0098 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.16.43:295][546]Display: HotReload took 15.1s.
+[2022.02.21-20.16.51:144][446]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn22)
+[2022.02.21-20.16.52:188][533]Cmd: DELETE
+[2022.02.21-20.16.52:188][533]Cmd: ACTOR DELETE
+[2022.02.21-20.16.52:189][533]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.16.52:210][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.02.21-20.16.52:211][533]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.02.21-20.16.53:255][656]LogEditor: Attempting to add actor of class 'CubePawn' to level at -370.00,10.00,620.00
+[2022.02.21-20.16.53:256][656]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.16.53:423][674]LogEditor: Attempting to add actor of class 'CubePawn' to level at -70.00,420.00,390.00
+[2022.02.21-20.16.53:426][674]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.17.32:357][364]Candidate modules for hot reload:
+[2022.02.21-20.17.32:357][364]  RubiksCubeSolver
+[2022.02.21-20.17.32:358][364]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,1453 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.17.32:363][364]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.17.50:901][873]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:17:50 AM
+[2022.02.21-20.17.50:901][873]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.17.50:901][873]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.17.50:901][873]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.17.50:901][873]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-1453.lib
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-1453.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-1453.exp
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-1453.dll
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-1453.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-1453.suppressed.exp
+[2022.02.21-20.17.50:902][873]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.17.50:902][873]CompilerResultsLog: Total time in Parallel executor: 16.59 seconds
+[2022.02.21-20.17.50:902][873]CompilerResultsLog: Total execution time: 18.42 seconds
+[2022.02.21-20.17.50:902][873]LogMainFrame: MainFrame: Module compiling took 18.548 seconds
+[2022.02.21-20.17.50:916][873]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.17.50:922][873]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.17.50:922][873]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.17.50:925][873]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.17.50:974][873]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.17.50:976][873]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.17.51:047][873]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0141 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.17.51:047][873]Display: HotReload took 18.7s.
+[2022.02.21-20.17.55:159][884]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.17.55:759][944]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn25)
+[2022.02.21-20.17.56:579][999]Cmd: DELETE
+[2022.02.21-20.17.56:579][999]Cmd: ACTOR DELETE
+[2022.02.21-20.17.56:581][999]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.17.56:604][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.02.21-20.17.56:605][999]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2022.02.21-20.17.57:556][106]LogEditor: Attempting to add actor of class 'CubePawn' to level at -240.00,800.00,650.00
+[2022.02.21-20.17.57:557][106]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.17.57:746][126]LogEditor: Attempting to add actor of class 'CubePawn' to level at -330.00,240.00,490.00
+[2022.02.21-20.17.57:749][126]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.18.29:186][262]Candidate modules for hot reload:
+[2022.02.21-20.18.29:186][262]  RubiksCubeSolver
+[2022.02.21-20.18.29:187][262]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,3217 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.18.29:194][262]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.18.31:362][389]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.18.31:865][439]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn28)
+[2022.02.21-20.18.32:572][487]Cmd: DELETE
+[2022.02.21-20.18.32:572][487]Cmd: ACTOR DELETE
+[2022.02.21-20.18.32:574][487]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.18.32:597][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.02.21-20.18.32:598][487]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2022.02.21-20.18.40:776][ 25]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:18:40 AM
+[2022.02.21-20.18.40:776][ 25]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.18.40:776][ 25]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.18.40:776][ 25]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-3217.lib
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-3217.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-3217.exp
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-3217.dll
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-3217.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-3217.suppressed.exp
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog: Total time in Parallel executor: 9.17 seconds
+[2022.02.21-20.18.40:777][ 25]CompilerResultsLog: Total execution time: 11.19 seconds
+[2022.02.21-20.18.40:777][ 25]LogMainFrame: MainFrame: Module compiling took 11.593 seconds
+[2022.02.21-20.18.40:792][ 25]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.18.40:799][ 25]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.18.40:799][ 25]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.18.40:819][ 25]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.18.40:821][ 25]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.18.40:920][ 25]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.18.40:920][ 25]Display: HotReload took 11.7s.
+[2022.02.21-20.19.38:903][240]LogEditor: Attempting to add actor of class 'CubePawn' to level at -530.00,400.00,750.00
+[2022.02.21-20.19.38:904][240]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.19.39:161][253]LogEditor: Attempting to add actor of class 'CubePawn' to level at -300.00,-20.00,600.00
+[2022.02.21-20.19.39:164][253]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.20.54:158][991]Candidate modules for hot reload:
+[2022.02.21-20.20.54:158][991]  RubiksCubeSolver
+[2022.02.21-20.20.54:158][991]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,5797 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.20.54:168][991]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:21:13 AM
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Creating makefile for RubiksCubeSolverEditor (game project files are newer)
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-5797.lib
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5797.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5797.exp
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-5797.dll
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5797.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5797.suppressed.exp
+[2022.02.21-20.21.13:366][273]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Total time in Parallel executor: 13.16 seconds
+[2022.02.21-20.21.13:366][273]CompilerResultsLog: Total execution time: 19.07 seconds
+[2022.02.21-20.21.13:366][273]LogMainFrame: MainFrame: Module compiling took 19.212 seconds
+[2022.02.21-20.21.13:381][273]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.13:386][273]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.21.13:387][273]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.13:389][273]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.13:433][273]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.21.13:435][273]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.21.13:492][273]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.21.13:492][273]Display: HotReload took 19.3s.
+[2022.02.21-20.21.14:596][361]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.21.15:131][420]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn30)
+[2022.02.21-20.21.15:869][479]Cmd: DELETE
+[2022.02.21-20.21.15:870][479]Cmd: ACTOR DELETE
+[2022.02.21-20.21.15:871][479]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.21.15:893][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.02.21-20.21.15:894][479]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.02.21-20.21.17:225][634]LogEditor: Attempting to add actor of class 'CubePawn' to level at -670.00,-20.00,800.00
+[2022.02.21-20.21.17:226][634]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.17:555][671]LogEditor: Attempting to add actor of class 'CubePawn' to level at -90.00,20.00,640.00
+[2022.02.21-20.21.17:558][671]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.48:471][916]Candidate modules for hot reload:
+[2022.02.21-20.21.48:472][916]  RubiksCubeSolver
+[2022.02.21-20.21.48:472][916]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,8198 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.21.48:484][916]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.21.59:346][646]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:21:59 AM
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-8198.lib
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-8198.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-8198.exp
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-8198.dll
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-8198.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-8198.suppressed.exp
+[2022.02.21-20.21.59:347][646]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Total time in Parallel executor: 8.91 seconds
+[2022.02.21-20.21.59:347][646]CompilerResultsLog: Total execution time: 10.67 seconds
+[2022.02.21-20.21.59:347][646]LogMainFrame: MainFrame: Module compiling took 10.880 seconds
+[2022.02.21-20.21.59:361][646]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.59:366][646]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.21.59:367][646]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.59:369][646]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.21.59:404][646]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.21.59:406][646]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.21.59:463][646]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.21.59:463][646]Display: HotReload took 11.0s.
+[2022.02.21-20.22.01:542][805]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.22.02:413][900]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn33)
+[2022.02.21-20.22.03:258][962]Cmd: DELETE
+[2022.02.21-20.22.03:258][962]Cmd: ACTOR DELETE
+[2022.02.21-20.22.03:260][962]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.22.03:282][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.02.21-20.22.03:283][962]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2022.02.21-20.22.04:157][ 63]LogEditor: Attempting to add actor of class 'CubePawn' to level at -190.00,660.00,1100.00
+[2022.02.21-20.22.04:158][ 63]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.22.04:389][ 88]LogEditor: Attempting to add actor of class 'CubePawn' to level at 140.00,310.00,870.00
+[2022.02.21-20.22.04:393][ 88]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.22.45:613][641]LogEditorViewport: Clicking on Actor (context menu): CubePawn (CubePawn36)
+[2022.02.21-20.23.35:025][458]Candidate modules for hot reload:
+[2022.02.21-20.23.35:025][458]  RubiksCubeSolver
+[2022.02.21-20.23.35:025][458]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,0080 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.23.35:031][458]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:24:00 AM
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-0080.lib
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0080.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0080.exp
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-0080.dll
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0080.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0080.suppressed.exp
+[2022.02.21-20.24.00:868][288]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Total time in Parallel executor: 23.64 seconds
+[2022.02.21-20.24.00:868][288]CompilerResultsLog: Total execution time: 25.70 seconds
+[2022.02.21-20.24.00:868][288]LogMainFrame: MainFrame: Module compiling took 25.846 seconds
+[2022.02.21-20.24.00:881][288]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.24.00:887][288]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.24.00:887][288]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.24.00:890][288]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.24.00:931][288]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.24.00:933][288]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.24.00:989][288]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.24.00:989][288]Display: HotReload took 26.0s.
+[2022.02.21-20.24.32:563][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.24.33:084][124]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn36)
+[2022.02.21-20.24.33:974][197]Cmd: DELETE
+[2022.02.21-20.24.33:974][197]Cmd: ACTOR DELETE
+[2022.02.21-20.24.33:976][197]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.24.33:997][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.02.21-20.24.33:998][197]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.02.21-20.24.34:966][310]LogEditor: Attempting to add actor of class 'CubePawn' to level at -310.00,290.00,1150.00
+[2022.02.21-20.24.34:967][310]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.24.35:472][368]LogEditor: Attempting to add actor of class 'CubePawn' to level at 360.00,300.00,890.00
+[2022.02.21-20.24.35:475][368]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.25.23:466][803]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.25.24:075][871]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn39)
+[2022.02.21-20.25.48:043][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.02.21-20.25.48:074][791]LogSavePackage: Moving '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Minimal_Default_Auto7B181A9F14ED1F08FCF6A928E3AE467C2.tmp' to '../../../../../../Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap'
+[2022.02.21-20.25.48:078][791]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.063
+[2022.02.21-20.25.48:078][791]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.063
+[2022.02.21-20.26.25:556][790]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.26.26:682][901]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn39)
+[2022.02.21-20.26.37:286][520]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.21-20.26.37:818][578]LogEditorViewport: Clicking on Actor (LMB): CubePawn (CubePawn39)
+[2022.02.21-20.26.38:416][624]Cmd: DELETE
+[2022.02.21-20.26.38:416][624]Cmd: ACTOR DELETE
+[2022.02.21-20.26.38:418][624]LogEditorActor: Deleted Actor: CubePawn
+[2022.02.21-20.26.38:441][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.02.21-20.26.38:442][624]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.02.21-20.26.39:377][733]Candidate modules for hot reload:
+[2022.02.21-20.26.39:377][733]  RubiksCubeSolver
+[2022.02.21-20.26.39:377][733]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RubiksCubeSolver,5883 RubiksCubeSolverEditor Win64 Development -Project="C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject" "C:/Users/Ludo/source/repos/rubiks-cube-solver/RubiksCubeSolver/RubiksCubeSolver.uproject"  -IgnoreJunk]
+[2022.02.21-20.26.39:383][733]Warning: Starting HotReload took  0.0s.
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: New page: Compilation - Feb 21, 2022, 10:26:47 AM
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Creating makefile for RubiksCubeSolverEditor (game project files are newer)
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Building RubiksCubeSolverEditor...
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Building 4 actions with 4 processes...
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:   [1/4] CubePawn.cpp
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:   [2/4] UE4Editor-RubiksCubeSolver-5883.lib
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5883.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5883.exp
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:   [3/4] UE4Editor-RubiksCubeSolver-5883.dll
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:      Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5883.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-5883.suppressed.exp
+[2022.02.21-20.26.47:490][907]CompilerResultsLog:   [4/4] RubiksCubeSolverEditor.target
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Total time in Parallel executor: 3.60 seconds
+[2022.02.21-20.26.47:490][907]CompilerResultsLog: Total execution time: 7.78 seconds
+[2022.02.21-20.26.47:490][907]LogMainFrame: MainFrame: Module compiling took 8.117 seconds
+[2022.02.21-20.26.47:503][907]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.26.47:508][907]LogHotReload: Re-instancing CubePawn after hot-reload.
+[2022.02.21-20.26.47:509][907]LogTemp: Warning: CubePawn constructor called
+[2022.02.21-20.26.47:524][907]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RubiksCubeSolver' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.21-20.26.47:526][907]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.21-20.26.47:588][907]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3825 classes and 930 folders.
+[2022.02.21-20.26.47:588][907]Display: HotReload took  8.2s.

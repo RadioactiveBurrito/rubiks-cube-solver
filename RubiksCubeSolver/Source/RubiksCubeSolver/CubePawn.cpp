@@ -146,13 +146,14 @@ void ACubePawn::InitializeCubeSlices(uint8 NbCubies)
 			// CubeSliceComponent->SetBoxExtent(FVector(CUBIE_LENGTH, CUBIE_LENGTH, CUBIE_LENGTH), true);
 
 			// TODO: GIVE DIMENSIONS TO CUBIE SLICE AND ROTATION AXIS
-			FVector SlicePosition = POSITION_SELECTOR[i] * (Coord * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH) + 400);
+			FVector SlicePosition = POSITION_SELECTOR[i] * (Coord * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH));
 
 			
 			CubeSliceComponent->SetupAttachment(RootComponent);
 			CubeSliceComponent->SetRelativeLocation(SlicePosition);
-			/*CubeSliceComponent->SetBoxExtent(DIMENSIONS_SELECTOR[i] * TotalCubeSideLength 
-				+ POSITION_SELECTOR[i]*CUBIE_LENGTH, true); // sets the dimensions*/
+			//CubeSliceComponent->SetBoxExtent(FVector(10, 10, 10));
+			CubeSliceComponent->SetBoxExtent(DIMENSIONS_SELECTOR[i] * TotalCubeSideLength/2
+				+ POSITION_SELECTOR[i]*CUBIE_LENGTH/2, true); // sets the dimensions*/
 
 			CubeSlices.Emplace(CubeSliceComponent);
 		}
