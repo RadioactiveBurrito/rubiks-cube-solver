@@ -4,6 +4,7 @@
 
 #include "Camera/CameraComponent.h"
 #include "CoreMinimal.h"
+#include "CubeSliceTriggerBox.h"
 
 #include "GameFramework/Pawn.h"
 #include "CubePawn.generated.h"
@@ -17,8 +18,6 @@ public:
 	// Sets default values for this pawn's properties
 	ACubePawn();
 
-	void Right();
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,23 +29,31 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	// TODO: MAYBE CHANGE THE EDITANYWHERE SPECIFIER TO SOMETHING ELSE
 	UPROPERTY(EditAnywhere)
 	TArray<UStaticMeshComponent*> Cubies;
+
+	// TODO: MAYBE CHANGE THE EDITANYWHERE SPECIFIER TO SOMETHING ELSE
+	UPROPERTY(EditAnywhere)
+	TArray<ACubeSliceTriggerBox*> CubeSlices;
 
 private:
 	const uint8 NB_CUBIES = 3;
 
-	const float SPACE_SIZE_CUBIES = 10.f;
+	const float SPACE_LENGTH_CUBIES = 10.f;
 
-	const float CUBIE_SIZE = 100;
+	const float CUBIE_LENGTH = 100;
+
+	// The size of a side of the cube taking into account the space between the cubies
+	float TotalCubeSideLength;
 
 	void InitializeVisualCubeLayout(uint8 NbCubies, ConstructorHelpers::FObjectFinder<UStaticMesh> CubieMesh);
 
-	void InitializeCubeSlices();
+	void InitializeCubeSlices(uint8 NbCubies);
 
 	void InitializeCamera();
 
 	void ColorCubie(int X, int Y, int Z, UStaticMesh* Cubie);
 
-	bool IsValidCubie(int X, int Y, int Z, const int MIN_COORD, const int MAX_COORD);
+	bool IsValidCubie(int X, int Y, int Z, const int MinCoord, const int MaxCoord);
 };
