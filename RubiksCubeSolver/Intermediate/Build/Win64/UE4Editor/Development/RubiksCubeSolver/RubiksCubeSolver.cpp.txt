@@ -1,0 +1,2 @@
+C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\Definitions.RubiksCubeSolver.h
+c:\users\ludo\source\repos\rubiks-cube-solver\rubikscubesolver\source\rubikscubesolver\RubiksCubeSolver.h
