@@ -1,5 +1,5 @@
 C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\Definitions.RubiksCubeSolver.h
-c:\users\ludo\source\repos\rubiks-cube-solver\rubikscubesolver\source\rubikscubesolver\CubeSliceTriggerBox.h
+C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Source\RubiksCubeSolver\CubeSliceTriggerBox.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBox.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerBase.generated.h

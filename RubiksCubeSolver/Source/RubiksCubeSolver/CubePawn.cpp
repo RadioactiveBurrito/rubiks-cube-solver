@@ -16,22 +16,20 @@ void ACubePawn::Tick(float DeltaTime)
 
 }
 
-//
-//void ACubePawn::Right()
-//{
-//	// VisibleTestCube->AddLocalRotation(RightRotation);
-//
-//	for(int i = 0; i < Cubies.Num(); ++i)
-//	{
-//		UStaticMeshComponent* Cubie = Cubies[i];
-//		//if (Cubie->GetSub.ToString().Contains("R"))
-//		//{
-//		//	Cubie->AddLocalRotation(FRotator(0,10,0));
-//		//}
-//	}
-//
-//	UE_LOG(LogTemp, Warning, TEXT("Right called"));
-//}
+
+void ACubePawn::Right()
+{
+	// VisibleTestCube->AddLocalRotation(RightRotation);
+	UBoxComponent* RightSlice = CubeSlices[0];
+	for (UStaticMeshComponent* Cubie : Cubies)
+	{
+		//if (Cubie->OverlapComponent(, , RightSlice->GetCollisionShape()))
+		//{
+		// TODO
+		//}
+	}
+	UE_LOG(LogTemp, Warning, TEXT("Right called"));
+}
 
 #pragma endregion
 
@@ -145,7 +143,8 @@ void ACubePawn::InitializeCubeSlices(uint8 NbCubies)
 
 			// CubeSliceComponent->SetBoxExtent(FVector(CUBIE_LENGTH, CUBIE_LENGTH, CUBIE_LENGTH), true);
 
-			// TODO: GIVE DIMENSIONS TO CUBIE SLICE AND ROTATION AXIS
+			// TODO: GIVE ROTATION AXIS AND BIND OVERLAP EVENT
+			// CubeSliceComponent->OnComponentBeginOverlap.AddDynamic(this, &ACubePawn::Machin); do Machin
 			FVector SlicePosition = POSITION_SELECTOR[i] * (Coord * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH));
 
 			
