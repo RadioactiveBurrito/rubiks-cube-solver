@@ -1,23 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ludo\source\repos\rubiks-cube-solver).
-  Creating makefile for RubiksCubeSolverEditor (no existing makefile)
   Building RubiksCubeSolverEditor...
   Using Visual Studio 2022 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 13 actions with 4 processes...
-    [1/13] Default.rc2
-    [2/13] SharedPCH.Engine.ShadowErrors.cpp
-    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
-    [3/13] RubiksCubeSolver.cpp
-    [4/13] CubeSliceTriggerBox.cpp
-    [5/13] RubiksCubeSolverGameModeBase.cpp
-    [6/13] CubeSliceTriggerBox.gen.cpp
-    [7/13] CubePawn.cpp
-    [8/13] CubePawn.gen.cpp
-    [9/13] RubiksCubeSolver.init.gen.cpp
-    [10/13] RubiksCubeSolverGameModeBase.gen.cpp
-    [11/13] UE4Editor-RubiksCubeSolver-0031.lib
-       Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0031.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0031.exp
-    [12/13] UE4Editor-RubiksCubeSolver-0031.dll
-       Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0031.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0031.suppressed.exp
-    [13/13] RubiksCubeSolverEditor.target
-  Total time in Parallel executor: 39.79 seconds
-  Total execution time: 43.38 seconds
+  Building 4 actions with 4 processes...
+    [1/4] CubePawn.cpp
+    [2/4] UE4Editor-RubiksCubeSolver-0032.lib
+       Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0032.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0032.exp
+    [3/4] UE4Editor-RubiksCubeSolver-0032.dll
+       Creating library C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0032.suppressed.lib and object C:\Users\Ludo\source\repos\rubiks-cube-solver\RubiksCubeSolver\Intermediate\Build\Win64\UE4Editor\Development\RubiksCubeSolver\UE4Editor-RubiksCubeSolver-0032.suppressed.exp
+    [4/4] RubiksCubeSolverEditor.target
+  Total time in Parallel executor: 9.78 seconds
+  Total execution time: 11.43 seconds

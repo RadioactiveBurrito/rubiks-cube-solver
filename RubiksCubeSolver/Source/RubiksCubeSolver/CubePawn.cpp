@@ -58,8 +58,8 @@ ACubePawn::ACubePawn()
 	InitializeCubeSlices(NB_CUBIES);
 
 	// So that the cubies are truly centered around the actor's position
-	int MAX_COORD = NB_CUBIES / 2;
-	SetPivotOffset(FVector(0, 0, MAX_COORD * CUBIE_LENGTH / 2));
+	// int MAX_COORD = NB_CUBIES / 2;
+	// SetPivotOffset(FVector(0, 0, MAX_COORD * CUBIE_LENGTH / 2));
 
 	UE_LOG(LogTemp, Warning, TEXT("CubePawn constructor called"));
 }
@@ -76,7 +76,7 @@ void ACubePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	// PlayerInputComponent->BindAction("Right", IE_Pressed, this, &ACubePawn::Right);
+	PlayerInputComponent->BindAction("Right", IE_Pressed, this, &ACubePawn::Right);
 	UE_LOG(LogTemp, Warning, TEXT("SetupInput called"));
 }
 
@@ -107,7 +107,7 @@ void ACubePawn::InitializeVisualCubeLayout(uint8 NbCubies, ConstructorHelpers::F
 
 					FVector CubiePosition = FVector(X * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH),
 						Y * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH),
-						Z * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH)); // TODO, MAYBE PUT THIS IN METHOD. DUPLICATE IN SLICE INIT
+						Z * (CUBIE_LENGTH / NbCubies + SPACE_LENGTH_CUBIES + CUBIE_LENGTH)-(CUBIE_LENGTH/2)); // TODO, MAYBE PUT THIS IN METHOD. DUPLICATE IN SLICE INIT
 
 					CubieComponent->SetupAttachment(RootComponent);
 					CubieComponent->SetRelativeLocation(CubiePosition);
